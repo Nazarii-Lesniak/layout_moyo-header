@@ -37,10 +37,6 @@ body {
   margin-right: 0;
 }
 
-.list__link:first-child {
-  margin-left: 0;
-}
-
 .link {
   display: inline-block;
   color: black;
@@ -74,20 +70,13 @@ body {
   color: var(--active-color);
 }
 
+.link:hover {
+  color: var(--active-color);
+}
+
 .logo-image {
-  display: flex;
   height: 40px;
   width: 40px;
   vertical-align: middle;
   object-fit: cover;
-}
-
-.logo {
-  margin-right: 419px;
-}
-
-@media (max-width: 1024px) {
-  .logo {
-    margin-right: 243px;
-  }
 }
